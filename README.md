@@ -13,4 +13,4 @@ TODO
     - long aoe
 
 Sources:
-- <a href="https://www.vecteezy.com/free-vector/world-map-continents">World Map Continents Vectors by Vecteezy</a>
+- [Wikipedia](https://ca.wikipedia.org/wiki/Risk#/media/Fitxer:Risk_game_map.png)
