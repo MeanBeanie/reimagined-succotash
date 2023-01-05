@@ -1,6 +1,8 @@
 # War Sim
 ### A basic war sim made for a friend
 
+> "its risk but multiple troop types and you actually have to play out the battles"
+
 TODO
 - Make the Game
 - Multiple Troops
@@ -9,7 +11,3 @@ TODO
     - long
     - short aoe
     - long aoe
-
-Basic Game Loop
-- Player
-    - gets certain amount of money to buy any troops with
