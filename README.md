@@ -11,3 +11,6 @@ TODO
     - long
     - short aoe
     - long aoe
+
+Sources:
+- <a href="https://www.vecteezy.com/free-vector/world-map-continents">World Map Continents Vectors by Vecteezy</a>
