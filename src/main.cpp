@@ -14,6 +14,8 @@ int main(){
 
     // Countries
     std::vector<Country> countries;
+    
+    // North America
     Country alaska({
             Vertex(140, 57),
             Vertex(106, 52),
@@ -117,6 +119,8 @@ int main(){
         Vertex(191, 198)
     }, "Eastern U.S.");
     countries.push_back(eus);
+
+    // Central America
     Country cenAmer({
         Vertex(94, 216),
         Vertex(149, 229),
@@ -137,6 +141,8 @@ int main(){
         Vertex(96, 238)
     }, "Central America");
     countries.push_back(cenAmer);
+
+    // South America
     Country venezuela({
         Vertex(231, 330),
         Vertex(259, 308),
@@ -194,7 +200,152 @@ int main(){
         Vertex(218, 370)
     }, "Peru");
     countries.push_back(peru);
+    Country argen({
+        Vertex(269, 444),
+        Vertex(281, 467),
+        Vertex(299, 462),
+        Vertex(321, 478),
+        Vertex(319, 487),
+        Vertex(332, 487),
+        Vertex(336, 478),
+        Vertex(338, 483),
+        Vertex(328, 495),
+        Vertex(328, 498),
+        Vertex(347, 513),
+        Vertex(341, 520),
+        Vertex(326, 517),
+        Vertex(335, 531),
+        Vertex(327, 538),
+        Vertex(317, 538),
+        Vertex(317, 549),
+        Vertex(315, 556),
+        Vertex(316, 581),
+        Vertex(334, 610),
+        Vertex(322, 611),
+        Vertex(302, 600),
+        Vertex(282, 573),
+        Vertex(275, 544),
+        Vertex(270, 492),
+        Vertex(266, 447)
+    }, "Argentina");
+    countries.push_back(argen);
+    Country brazil({
+        Vertex(265, 356),
+        Vertex(274, 354),
+        Vertex(280, 361),
+        Vertex(290, 353),
+        Vertex(387, 345),
+        Vertex(292, 347),
+        Vertex(302, 341),
+        Vertex(306, 357),
+        Vertex(310, 357),
+        Vertex(326, 353),
+        Vertex(335, 353),
+        Vertex(340, 345),
+        Vertex(345, 356),
+        Vertex(391, 378),
+        Vertex(409, 390),
+        Vertex(408, 403),
+        Vertex(393, 423),
+        Vertex(392, 448),
+        Vertex(382, 467),
+        Vertex(360, 484),
+        Vertex(355, 501),
+        Vertex(348, 512),
+        Vertex(329, 497),
+        Vertex(340, 483),
+        Vertex(321, 463),
+        Vertex(316, 451),
+        Vertex(320, 446),
+        Vertex(315, 435),
+        Vertex(308, 434),
+        Vertex(303, 424),
+        Vertex(287, 418),
+        Vertex(282, 406),
+        Vertex(368, 413),
+        Vertex(260, 406),
+        Vertex(253, 404),
+        Vertex(249, 396),
+        Vertex(252, 386),
+        Vertex(262, 383),
+        Vertex(264, 383),
+        Vertex(267, 371),
+        Vertex(264, 363),
+        Vertex(267, 360),
+    }, "Brazil");
+    countries.push_back(brazil);
 
+    // Green/Ice Land
+    Country greenland({
+        Vertex(378, 26),
+        Vertex(421, 15),
+        Vertex(501, 11),
+        Vertex(534, 16),
+        Vertex(495, 57),
+        Vertex(438, 72),
+        Vertex(417, 93),
+        Vertex(402, 84),
+        Vertex(403, 66),
+        Vertex(410, 45),
+        Vertex(398, 32),
+        Vertex(378, 30),
+    }, "Greenland");
+    countries.push_back(greenland);
+    Country iceland({
+        Vertex(494, 75),
+        Vertex(505, 72),
+        Vertex(516, 71),
+        Vertex(520, 74),
+        Vertex(511, 79),
+        Vertex(502, 81),
+        Vertex(497, 78),
+        Vertex(493, 78)
+    }, "Iceland");
+    countries.push_back(iceland);
+
+    // Africa
+    Country northAfr({
+        Vertex(506, 202),
+        Vertex(598, 197),
+        Vertex(602, 213),
+        Vertex(593, 229),
+        Vertex(593, 246),
+        Vertex(602, 258),
+        Vertex(615, 260),
+        Vertex(626, 260),
+        Vertex(652, 275),
+        Vertex(652, 291),
+        Vertex(645, 303),
+        Vertex(649, 312),
+        Vertex(630, 325),
+        Vertex(619, 328),
+        Vertex(614, 335),
+        Vertex(621, 352),
+        Vertex(596, 352),
+        Vertex(523, 342),
+        Vertex(486, 304),
+        Vertex(487, 266),
+        Vertex(505, 237),
+    }, "North Africa");
+    countries.push_back(northAfr);
+    Country egypt({
+        Vertex(603, 214),
+        Vertex(632, 227),
+        Vertex(639, 215),
+        Vertex(691, 223),
+        Vertex(694, 236),
+        Vertex(700, 258),
+        Vertex(695, 262),
+        Vertex(655, 262),
+        Vertex(652, 273),
+        Vertex(620, 257),
+        Vertex(608, 257),
+        Vertex(597, 250),
+        Vertex(595, 244),
+        Vertex(597, 237),
+        Vertex(595, 227),
+    }, "Egypt");
+    countries.push_back(egypt);
 
     while(window.isOpen()){
         
