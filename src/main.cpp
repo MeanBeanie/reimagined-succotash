@@ -346,9 +346,128 @@ int main(){
         Vertex(595, 227),
     }, "Egypt");
     countries.push_back(egypt);
+    Country easAfr({
+        Vertex(657, 264),
+        Vertex(695, 264),
+        Vertex(701, 259),
+        Vertex(706, 266),
+        Vertex(739, 316),
+        Vertex(765, 310),
+        Vertex(750, 348),
+        Vertex(718, 381),
+        Vertex(721, 411),
+        Vertex(697, 414),
+        Vertex(702, 434),
+        Vertex(697, 436),
+        Vertex(698, 430),
+        Vertex(693, 497),
+        Vertex(693, 406),
+        Vertex(683, 399),
+        Vertex(677, 387),
+        Vertex(683, 375),
+        Vertex(700, 365),
+        Vertex(697, 344),
+        Vertex(371, 343),
+        Vertex(655, 324),
+        Vertex(647, 304),
+        Vertex(654, 293),
+        Vertex(654, 273),
+        Vertex(657, 273)
+    }, "East Africa");
+    countries.push_back(easAfr);
+    Country congo({
+        Vertex(596, 354),
+        Vertex(623, 354),
+        Vertex(615, 337),
+        Vertex(649, 314),
+        Vertex(670, 344),
+        Vertex(682, 347),
+        Vertex(697, 347),
+        Vertex(697, 348),
+        Vertex(681, 373),
+        Vertex(680, 380),
+        Vertex(675, 384),
+        Vertex(681, 399),
+        Vertex(671, 403),
+        Vertex(672, 417),
+        Vertex(678, 420),
+        Vertex(676, 422),
+        Vertex(665, 416),
+        Vertex(648, 412),
+        Vertex(645, 395),
+        Vertex(629, 399),
+        Vertex(623, 389),
+        Vertex(606, 389),
+        Vertex(593, 369)
+    }, "Congo");
+    countries.push_back(congo);
+    Country souAfr({
+        Vertex(607, 391),
+        Vertex(623, 391),
+        Vertex(628, 400),
+        Vertex(635, 400),
+        Vertex(644, 397),
+        Vertex(647, 414),
+        Vertex(669, 418),
+        Vertex(674, 423),
+        Vertex(680, 423),
+        Vertex(680, 419),
+        Vertex(674, 416),
+        Vertex(674, 403),
+        Vertex(682, 400),
+        Vertex(691, 407),
+        Vertex(691, 422),
+        Vertex(691, 428),
+        Vertex(698, 438),
+        Vertex(700, 438),
+        Vertex(704, 434),
+        Vertex(699, 423),
+        Vertex(699, 416),
+        Vertex(722, 412),
+        Vertex(723, 428),
+        Vertex(688, 489),
+        Vertex(656, 518),
+        Vertex(633, 518),
+        Vertex(603, 435)
+    }, "South Africa");
+    countries.push_back(souAfr);
+    Country madagascar({
+        Vertex(746, 435),
+        Vertex(758, 420),
+        Vertex(761, 432),
+        Vertex(746, 476),
+        Vertex(738, 478),
+        Vertex(733, 474),
+        Vertex(732, 463),
+        Vertex(739, 437)
+    }, "Madagascar");
+    countries.push_back(madagascar);
+
+    // Australia
+    Country wesAus({
+        Vertex(1041, 455),
+        Vertex(1079, 427),
+        Vertex(1085, 432),
+        Vertex(1072, 481),
+        Vertex(1122, 484),
+        Vertex(1104, 534),
+        Vertex(1017, 521),
+        Vertex(1020, 464)
+    }, "Western Australia");
+    countries.push_back(wesAus);
+    Country easAus({
+        Vertex(1106, 417),
+        Vertex(1145, 415),
+        Vertex(1174, 481),
+        Vertex(1160, 512),
+        Vertex(1111, 560),
+        Vertex(1105, 535),
+        Vertex(1124, 482),
+        Vertex(1074, 479),
+        Vertex(1087, 432)
+    }, "East Australia");
 
     while(window.isOpen()){
-        
         sf::Event event;
         while(window.pollEvent(event)){
             switch(event.type){
