@@ -367,7 +367,7 @@ int main(){
         Vertex(683, 375),
         Vertex(700, 365),
         Vertex(697, 344),
-        Vertex(371, 343),
+        Vertex(671, 343),
         Vertex(655, 324),
         Vertex(647, 304),
         Vertex(654, 293),
@@ -466,6 +466,230 @@ int main(){
         Vertex(1074, 479),
         Vertex(1087, 432)
     }, "East Australia");
+    countries.push_back(easAus);
+
+    // Europe
+    Country grBr({
+        Vertex(527, 120),
+        Vertex(549, 104),
+        Vertex(566, 127),
+        Vertex(563, 133),
+        Vertex(542, 136),
+        Vertex(527, 131)
+    }, "Great Britain");
+    countries.push_back(grBr);
+    Country wesEur({
+        Vertex(545, 144),
+        Vertex(570, 134),
+        Vertex(585, 148),
+        Vertex(580, 143),
+        Vertex(586, 165),
+        Vertex(548, 196),
+        Vertex(524, 194),
+        Vertex(526, 127)
+    }, "Western Europe");
+    countries.push_back(wesEur);
+    Country souEur({
+        Vertex(586, 149),
+        Vertex(593, 149),
+        Vertex(597, 152),
+        Vertex(614, 143),
+        Vertex(622, 147),
+        Vertex(619, 143),
+        Vertex(629, 156),
+        Vertex(638, 154),
+        Vertex(642, 148),
+        Vertex(658, 147),
+        Vertex(667, 160),
+        Vertex(663, 172),
+        Vertex(657, 178),
+        Vertex(645, 197),
+        Vertex(615, 196),
+        Vertex(607, 192),
+        Vertex(588, 164)
+    }, "Southern Europe");
+    countries.push_back(souEur);
+    Country norEur({
+        Vertex(596, 107),
+        Vertex(606, 119),
+        Vertex(635, 115),
+        Vertex(646, 135),
+        Vertex(638, 153),
+        Vertex(625, 155),
+        Vertex(620, 152),
+        Vertex(624, 147),
+        Vertex(619, 142),
+        Vertex(697, 150),
+        Vertex(587, 148),
+        Vertex(588, 142),
+        Vertex(571, 133)
+    }, "Northern Europe");
+    countries.push_back(norEur);
+
+    // idk what to classify
+    Country scandinavia({
+        Vertex(582, 88),
+        Vertex(615, 61),
+        Vertex(637, 53),
+        Vertex(658, 55),
+        Vertex(652, 59),
+        Vertex(663, 84),
+        Vertex(655, 92),
+        Vertex(641, 94),
+        Vertex(608, 113),
+        Vertex(584, 100)
+    }, "Scandinavia");
+    countries.push_back(scandinavia);
+    Country ukraine({
+        Vertex(659, 56),
+        Vertex(757, 59),
+        Vertex(762, 67),
+        Vertex(747, 78),
+        Vertex(755, 108),
+        Vertex(779, 133),
+        Vertex(743, 129),
+        Vertex(729, 140),
+        Vertex(740, 154),
+        Vertex(732, 163),
+        Vertex(747, 182),
+        Vertex(732, 186),
+        Vertex(717, 174),
+        Vertex(666, 158),
+        Vertex(658, 145),
+        Vertex(643, 147),
+        Vertex(648, 134),
+        Vertex(636, 114),
+        Vertex(642, 99),
+        Vertex(665, 84),
+        Vertex(654, 59)
+    }, "Ukraine");
+    countries.push_back(ukraine);
+    Country ural({
+        Vertex(759, 59),
+        Vertex(771, 46),
+        Vertex(797, 48),
+        Vertex(810, 60),
+        Vertex(867, 107),
+        Vertex(854, 111),
+        Vertex(868, 126),
+        Vertex(858, 134),
+        Vertex(873, 148),
+        Vertex(866, 152),
+        Vertex(827, 118),
+        Vertex(800, 114),
+        Vertex(775, 128),
+        Vertex(761, 116),
+        Vertex(749, 78),
+        Vertex(764, 67)
+    }, "Ural");
+    countries.push_back(ural);
+    Country siberia({
+        Vertex(798, 47),
+        Vertex(814, 37),
+        Vertex(847, 29),
+        Vertex(874, 32),
+        Vertex(894, 51),
+        Vertex(887, 58),
+        Vertex(908, 78),
+        Vertex(906, 82),
+        Vertex(916, 99),
+        Vertex(897, 106),
+        Vertex(900, 121),
+        Vertex(890, 128),
+        Vertex(877, 130),
+        Vertex(881, 140),
+        Vertex(872, 144),
+        Vertex(860, 134),
+        Vertex(870, 125),
+        Vertex(856, 111),
+        Vertex(869, 107),
+        Vertex(847, 94),
+        Vertex(836, 76),
+        Vertex(805, 55)
+    }, "Siberia");
+    countries.push_back(siberia);
+    Country takutsk({
+        Vertex(885, 43),
+        Vertex(978, 46),
+        Vertex(1054, 58),
+        Vertex(1035, 84),
+        Vertex(1020, 96),
+        Vertex(1011, 112),
+        Vertex(973, 108),
+        Vertex(954, 96),
+        Vertex(930, 97),
+        Vertex(928, 89),
+        Vertex(901, 73),
+        Vertex(889, 53),
+        Vertex(896, 49)
+    }, "Takutsk")
+    countries.push_back(takutsk);
+    Country kamchatka({
+        Vertex(1056, 58),
+        Vertex(1079, 56),
+        Vertex(1146, 68),
+        Vertex(1158, 75),
+        Vertex(1122, 132),
+        Vertex(1054, 171),
+        Vertex(1057, 154),
+        Vertex(1052, 144),
+        Vertex(1043, 148),
+        Vertex(1029, 134),
+        Vertex(1035, 123),
+        Vertex(1018, 120),
+        Vertex(1021, 114),
+        Vertex(1013, 112),
+        Vertex(1009, 104),
+        Vertex(1023, 85),
+        Vertex(1048, 68)
+    }, "Kamchatka");
+    countries.push_back(kamchatka);
+
+    // Asia
+    Country japan({
+        Vertex(1088, 159),
+        Vertex(1105, 168),
+        Vertex(1106, 200),
+        Vertex(1077, 221),
+        Vertex(1071, 213),
+        Vertex(1073, 207)
+    }, "Japan");
+    countries.push_back(japan);
+    Country siam({
+        Vertex(948, 237),
+        Vertex(962, 267),
+        Vertex(971, 267),
+        Vertex(971, 262),
+        Vertex(983, 259),
+        Vertex(994, 266),
+        Vertex(1006, 309),
+        Vertex(987, 356),
+        Vertex(962, 325),
+        Vertex(944, 288),
+        Vertex(932, 268),
+        Vertex(937, 264),
+        Vertex(936, 258),
+        Vertex(940, 244)
+    }, "Siam");
+    countries.push_back(siam);
+    Country india({
+        Vertex(813, 194),
+        Vertex(831, 190),
+        Vertex(845, 194),
+        Vertex(869, 207),
+        Vertex(868, 221),
+        Vertex(926, 239),
+        Vertex(935, 232),
+        Vertex(947, 236),
+        Vertex(931, 266),
+        Vertex(890, 335),
+        Vertex(872, 323),
+        Vertex(807, 248),
+        Vertex(802, 221),
+        Vertex(797, 213),
+        Vertex(798, 203)
+    }, "India");
+    countries.push_back(india);
 
     while(window.isOpen()){
         sf::Event event;
