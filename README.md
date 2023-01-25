@@ -1,6 +1,6 @@
 # War Sim
 
-### A basic war sim made for my partner
+### A basic war sim made for my friend
 
 > "its risk but multiple troop types and you actually have to play out the battles"
 
